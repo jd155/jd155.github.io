@@ -2,7 +2,7 @@
 title:       Jonathan Davies
 email:       your_email@example.com
 author:      Jonathan Davies
-description: "Writing about Data Science, statistics, visualisation and programming."
+description: "Writing about data science, statistics, visualisation and programming."
 baseurl:     ""
 url:         "http://pixyll.com"
 date_format: "%b %-d, %Y"
@@ -32,7 +32,7 @@ facebook_comments_number: 10
 github_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username: @j0nathan_davies
+twitter_username:
 google_plus_id:
 linkedin_username:
 angellist_username:
