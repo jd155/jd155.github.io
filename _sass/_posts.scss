@@ -4,8 +4,7 @@
 }
 
 .posts .post {
-  margin-bottom: 0.75em;
-  border-bottom: thin solid #f3f3f3;
+  margin-bottom: 0.25em;
 }
 
 .posts .post:last-child {
@@ -23,7 +22,7 @@
 .post-footer {
   @extend .italic;
 
-  margin-top: .75rem;
+  margin-top: .25rem;
   text-align: center;
 }
 
