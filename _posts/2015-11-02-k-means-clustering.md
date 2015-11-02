@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      K-means Clustering for user segmentation
-summary:
+summary:    .
 date:       2015-11-02 11:21:29
 categories: jekyll pixyll
 ---
