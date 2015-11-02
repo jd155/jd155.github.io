@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Pixyll in Action
-date:       2014-06-10 12:31:19
+title:      Python code example
+date:       2015-11-01 12:31:19
 summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
 categories: jekyll pixyll
 ---
@@ -16,12 +16,15 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 ### Code, with syntax highlighting
 
-Here's an example of some ruby code with line anchors.
+Here's an example of some python code with line anchors.
 
-{% highlight ruby lineanchors %}
-# The most awesome of classes
-class Awesome < ActiveRecord::Base
-  include EvenMoreAwesome
+{% highlight python lineanchors %}
+# Creating the percentile features
+for i in [0.1, 0.2, 0.3, 0.4, 0.6, 0.7, 0.8, 0.9]:
+    i_name = 'quantile_' + str(i)
+    i_group = sorted_bids.groupby('bidder_id')['bid_time_diff'].quantile(i)
+    i_group = i_group.fillna(i_group.mean())
+    features[i_name] = i_group
 
   validates_presence_of :something
   validates :email, email_format: true
