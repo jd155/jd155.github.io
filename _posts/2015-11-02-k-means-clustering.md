@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Pixyll has Pagination
-date:       2014-06-08 11:21:29
-summary:    This is a post about k means clustering.
+title:      K-means Clustering for user segmentation
+date:       2015-11-02 11:21:29
+summary:    Post about k means clustering.
 categories: jekyll pixyll
 ---
 
