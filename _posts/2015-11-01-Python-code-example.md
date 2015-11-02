@@ -2,7 +2,7 @@
 layout:     post
 title:      Python code example
 date:       2015-11-01 12:31:19
-summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
+summary:    See what the different elements looks like. Your markdown has never looked better. 
 categories: jekyll pixyll
 ---
 
